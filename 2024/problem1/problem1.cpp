@@ -12,7 +12,7 @@ struct problem_input {
 };
 
 problem_input get_problem_input() {
- std::istringstream input(download_input("2024", "1"));
+  std::istringstream input(download_input("2024", "1"));
   std::vector<int> left;
   std::vector<int> right;
   std::string line;
